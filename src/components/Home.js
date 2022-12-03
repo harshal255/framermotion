@@ -17,6 +17,7 @@ const Home = () => {
         <motion.button
           initial={{}}
           animate={{}}
+          whileHover={{ scale: 1.2, textShadow: '0px 0px 8px rgb(255,255,255)', boxShadow: '0px 0px 8px rgb(255,255,255)' }}
         >
           Create Your Pizza
         </motion.button>
